@@ -1,0 +1,16 @@
+project:
+  output-dir: _site
+  post-render:
+    - bash scripts/post-render.sh
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 2
+    toc-location: left
+    smooth-scroll: true
+    link-external-icon: true
+    link-external-newwindow: true
+    keep-md: true
+    embed-resources: true
